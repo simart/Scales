@@ -13,10 +13,6 @@ public void draw(){
         scale(x,y);
 }
 public void scale(int x, int y){
-  //for(int i = 60; i > 0; i--){
-  //    stroke(i*4);
-  //    ellipse(x,y,i,i*1.5);
-  //}
   translate(x,y);
   sphere(30);
   translate(-x,-y);
