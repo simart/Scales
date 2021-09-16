@@ -1,6 +1,5 @@
 public void setup(){
   size(800,800,P3D);
-
 }
 public void draw(){
   rotateX(mouseY/800.0);
